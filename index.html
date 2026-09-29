@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      // Defensive initialization for iframe sandboxes where window.fetch has only a getter
+      (function() {
+        try {
+          var realFetch = window.fetch ? window.fetch.bind(window) : null;
+          var desc = Object.getOwnPropertyDescriptor(window, 'fetch') ||
+                     Object.getOwnPropertyDescriptor(Object.getPrototypeOf(window), 'fetch');
+          if (!desc || !desc.set) {
+            var currentFetch = realFetch;
+            Object.defineProperty(window, 'fetch', {
+              configurable: true,
+              enumerable: true,
+              get: function() {
+                return currentFetch;
+              },
+              set: function(fn) {
+                currentFetch = fn;
+              }
+            });
+          }
+        } catch (err) {
+          // Fallback gracefully without breaking execution
+        }
+      })();
+    </script>
+    <title>Sanelow Label PTY Ltd Music Publishers | Official Music Publishing &amp; Rights Administration</title>
+    <meta name="description" content="Sanelow Label PTY Ltd Music Publishers is an accredited South African music publishing house and master rights administrator. Certified affiliate of SAMRO, CAPASSO, RISA, and SAMPRA. Providing one-stop sync licensing for film, television, advertising, and digital streaming media." />
+    <meta property="og:title" content="Sanelow Label PTY Ltd Music Publishers | Official Music Publishing &amp; Rights Administration" />
+    <meta property="og:description" content="Official corporate portal of Sanelow Label PTY Ltd Music Publishers. Certified affiliate of SAMRO, CAPASSO, RISA, and SAMPRA. One-stop synchronization licensing for global productions." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/jpeg" href="/sanelow-logo.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body class="bg-[#f8fafc] text-slate-900 antialiased selection:bg-red-500/20 selection:text-red-900">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

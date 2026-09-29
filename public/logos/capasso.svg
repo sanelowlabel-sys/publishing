@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 160" width="620" height="160" fill="none">
+  <!-- Official CAPASSO Logo with Ultra-Clear High-Contrast Brand Mark -->
+  <g transform="translate(10, 15)">
+    <!-- C -->
+    <path d="M68 62 C 68 38, 54 20, 34 20 C 14 20, 2 38, 2 62 C 2 86, 14 104, 34 104 C 54 104, 68 86, 68 62 Z M54 62 C 54 78, 46 90, 34 90 C 22 90, 16 78, 16 62 C 16 46, 22 34, 34 34 C 46 34, 54 46, 54 62 Z" fill="#001827" fill-rule="evenodd" />
+
+    <!-- A (First letter) -->
+    <path d="M106 22 L76 102 L92 102 L99 82 L121 82 L128 102 L144 102 L114 22 Z M104 68 L110 50 L116 68 Z" fill="#001827" />
+
+    <!-- P -->
+    <path d="M152 22 L152 102 L168 102 L168 72 L186 72 C 202 72, 212 62, 212 47 C 212 32, 202 22, 186 22 Z M168 36 L184 36 C 193 36, 198 40, 198 47 C 198 54, 193 58, 184 58 L168 58 Z" fill="#001827" />
+
+    <!-- Geometric Mosaic Triangle A -->
+    <g transform="translate(225, 20)">
+      <!-- Top Gold Triangle Segment -->
+      <polygon points="40,2 18,38 40,38" fill="#F59E0B" />
+      <polygon points="40,2 62,38 40,38" fill="#D97706" />
+      
+      <!-- Left Red/Orange Facets -->
+      <polygon points="18,38 40,38 29,60" fill="#DC2626" />
+      <polygon points="18,38 7,60 29,60" fill="#B91C1C" />
+      <polygon points="7,60 29,60 18,82" fill="#EA580C" />
+      <polygon points="7,60 -4,82 18,82" fill="#65A30D" />
+
+      <!-- Center Inner Triangle Cutout -->
+      <polygon points="29,60 51,60 40,38" fill="#FFFFFF" />
+
+      <!-- Right Red/Dark Maroon Facets -->
+      <polygon points="40,38 62,38 51,60" fill="#7F1D1D" />
+      <polygon points="51,60 73,60 62,38" fill="#001827" />
+      <polygon points="29,60 51,60 40,82" fill="#F97316" />
+      <polygon points="51,60 73,82 40,82" fill="#991B1B" />
+      <polygon points="51,60 73,60 73,82" fill="#450A0A" />
+    </g>
+
+    <!-- S (First) -->
+    <path d="M365 38 C 360 28, 350 22, 338 22 C 322 22, 314 30, 314 40 C 314 52, 326 56, 338 60 C 354 64, 368 70, 368 84 C 368 98, 354 104, 338 104 C 322 104, 310 96, 304 84 L318 76 C 322 84, 328 90, 338 90 C 346 90, 352 86, 352 78 C 352 70, 342 66, 330 62 C 316 58, 300 52, 300 38 C 300 24, 314 18, 336 18 C 348 18, 360 24, 368 32 Z" fill="#001827" />
+
+    <!-- S (Second) -->
+    <path d="M440 38 C 435 28, 425 22, 413 22 C 397 22, 389 30, 389 40 C 389 52, 401 56, 413 60 C 429 64, 443 70, 443 84 C 443 98, 429 104, 413 104 C 397 104, 385 96, 379 84 L393 76 C 397 84, 403 90, 413 90 C 421 90, 427 86, 427 78 C 427 70, 417 66, 405 62 C 391 58, 375 52, 375 38 C 375 24, 389 18, 411 18 C 423 18, 435 24, 443 32 Z" fill="#001827" />
+
+    <!-- O -->
+    <path d="M510 62 C 510 38, 496 20, 476 20 C 456 20, 442 38, 442 62 C 442 86, 456 104, 476 104 C 496 104, 510 86, 510 62 Z M494 62 C 494 78, 486 90, 476 90 C 466 90, 458 78, 458 62 C 458 46, 466 34, 476 34 C 486 34, 494 46, 494 62 Z" fill="#001827" fill-rule="evenodd" />
+
+    <!-- Subtitle: THE MECHANICAL RIGHTS HUB -->
+    <text x="6" y="134" fill="#001827" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="17" letter-spacing="8">THE MECHANICAL RIGHTS HUB</text>
+  </g>
+</svg>

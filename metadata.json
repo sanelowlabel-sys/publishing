@@ -1,0 +1,6 @@
+{
+  "name": "Sanelow Label PTY Ltd Music Publishing",
+  "description": "Official corporate portal, statutory music rights administration, and synchronization licensing for Sanelow Label PTY Ltd Music Publishing. Fully accredited with SAMRO, CAPASSO, RISA, and SAMPRA, providing 100% pre-cleared one-stop master and publishing house music repertoire.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
