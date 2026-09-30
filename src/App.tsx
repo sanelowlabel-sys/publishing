@@ -125,7 +125,9 @@ export default function App() {
 
                   <div className="lg:col-span-5 bg-slate-950 text-white p-6 sm:p-8 rounded-2xl border border-slate-800 space-y-5 shadow-lg">
                     <div className="flex items-center gap-3 pb-3 border-b border-slate-800">
-                      <img src="/sanelow-logo.jpg" alt="Logo" className="w-12 h-12 rounded-xl object-cover" />
+                      <div className="w-12 h-12 rounded-xl bg-white border border-slate-700 shadow-sm flex items-center justify-center overflow-hidden shrink-0">
+                        <img src="/sanelow-logo.jpg" alt="Sanelow Logo" className="w-full h-full object-cover" />
+                      </div>
                       <div>
                         <span className="text-[10px] font-mono text-red-400 font-bold uppercase">Pre-Cleared Catalog</span>
                         <h4 className="text-base font-bold text-white">100% One-Stop Master &amp; Publishing</h4>

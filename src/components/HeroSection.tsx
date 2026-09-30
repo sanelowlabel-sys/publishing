@@ -79,11 +79,11 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onNavigate }) => {
           <div className="lg:col-span-4 flex justify-center">
             <div className="w-full max-w-sm bg-white p-6 rounded-2xl border border-slate-200 shadow-md space-y-5 relative">
               <div className="flex items-center gap-4">
-                <div className="w-20 h-20 rounded-2xl bg-black border-2 border-slate-200 shadow-sm shrink-0 p-1 flex items-center justify-center overflow-hidden">
+                <div className="w-20 h-20 rounded-2xl bg-white border border-slate-200 shadow-sm shrink-0 flex items-center justify-center overflow-hidden">
                   <img
                     src="/sanelow-logo.jpg"
                     alt="Sanelow Label PTY Ltd Music Publishers Logo"
-                    className="w-full h-full object-contain"
+                    className="w-full h-full object-cover"
                   />
                 </div>
                 <div>

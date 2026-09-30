@@ -1002,13 +1002,15 @@ export const AboutPublishingSection: React.FC<AboutPublishingSectionProps> = ({
             <div className="space-y-6">
               <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-5">
                 <div className="flex items-center gap-3">
-                  <img src="/sanelow-logo.jpg" alt="Sanelow Logo" className="w-14 h-14 rounded-xl object-cover border border-slate-200 shadow-xs" />
+                  <div className="w-14 h-14 rounded-xl bg-white border border-slate-200 shadow-xs flex items-center justify-center overflow-hidden shrink-0">
+                    <img src="/sanelow-logo.jpg" alt="Sanelow Logo" className="w-full h-full object-cover" />
+                  </div>
                   <div>
                     <h4 className="font-extrabold text-sm text-slate-900">
                       Sanelow Label PTY Ltd
                     </h4>
-                    <span className="text-[11px] font-mono text-red-600 font-semibold">
-                      Music Publishing
+                    <span className="text-[11px] font-mono text-red-600 font-bold uppercase tracking-wide">
+                      Music Publishers
                     </span>
                   </div>
                 </div>

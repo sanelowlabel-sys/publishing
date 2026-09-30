@@ -101,11 +101,11 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onSelectOrg }) => {
           {/* Column 1: Company Profile */}
           <div className="lg:col-span-2 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-13 h-13 rounded-xl bg-black p-0.5 border border-slate-700 shadow-xs flex items-center justify-center overflow-hidden shrink-0">
+              <div className="w-13 h-13 rounded-xl bg-white border border-slate-700 shadow-xs flex items-center justify-center overflow-hidden shrink-0">
                 <img
                   src="/sanelow-logo.jpg"
                   alt="Sanelow Label PTY Ltd Music Publishers Logo"
-                  className="w-full h-full object-contain"
+                  className="w-full h-full object-cover"
                 />
               </div>
               <div>

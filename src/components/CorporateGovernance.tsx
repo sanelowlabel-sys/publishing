@@ -52,8 +52,8 @@ export const CorporateGovernance: React.FC = () => {
         {/* Company Registration Card */}
         <div className="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 shadow-2xs space-y-5">
           <div className="flex items-center gap-3">
-            <div className="w-12 h-12 rounded-xl bg-black p-0.5 border border-slate-200 shadow-xs flex items-center justify-center overflow-hidden shrink-0">
-              <img src="/sanelow-logo.jpg" alt="Sanelow Logo" className="w-full h-full object-contain" />
+            <div className="w-12 h-12 rounded-xl bg-white border border-slate-200 shadow-xs flex items-center justify-center overflow-hidden shrink-0">
+              <img src="/sanelow-logo.jpg" alt="Sanelow Logo" className="w-full h-full object-cover" />
             </div>
             <div>
               <span className="text-[10px] font-mono text-slate-500 uppercase tracking-wider">

@@ -47,11 +47,11 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, onNavigate }) => {
             onClick={() => handleNavClick('overview')}
             className="flex items-center gap-3 text-left group cursor-pointer"
           >
-            <div className="relative w-12 h-12 rounded-xl overflow-hidden border-2 border-slate-200 shadow-sm group-hover:border-red-600 transition-colors bg-black flex items-center justify-center shrink-0 p-0.5">
+            <div className="relative w-12 h-12 rounded-xl overflow-hidden border border-slate-200 shadow-sm group-hover:border-red-600 transition-colors bg-white flex items-center justify-center shrink-0">
               <img
                 src="/sanelow-logo.jpg"
                 alt="Sanelow Label PTY Ltd Music Publishers Logo"
-                className="w-full h-full object-contain"
+                className="w-full h-full object-cover"
                 onError={(e) => {
                   // Fallback to text initials if image fails
                   const target = e.currentTarget;
