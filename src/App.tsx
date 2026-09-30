@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { Navbar } from './components/Navbar';
 import { HeroSection } from './components/HeroSection';
 import { StatutoryRightsSection } from './components/StatutoryRightsSection';
@@ -388,6 +389,9 @@ export default function App() {
         onNavigate={handleNavigate}
         onSelectOrg={handleSelectStatutoryOrg}
       />
+      
+      {/* Vercel Web Analytics */}
+      <Analytics />
     </div>
   );
 }
